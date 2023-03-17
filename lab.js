@@ -168,7 +168,17 @@ let z = 5;
 
 //CODE HERE
 
-// while (z>=1) {
-//   console.log(z)
-//   z-=1
-// }
+while (z>0) {
+  for (i=z; i>0; i--) {
+  console.log(i)
+  }
+  z--;
+
+  //another way
+  // let i=z
+  // while (i>0){
+  //   console.log(i)
+  //   i--;
+  // }
+  // z--
+}
